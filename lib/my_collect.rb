@@ -1,7 +1,9 @@
 def my_collect(array)
+  i = 0 
   collection = []
-   my_collect(collection) while |lang|
-  lang.uppercase
+   while i < array.length
+  collection<<yield(array[i])
+  i += 1 
   end 
  end 
  
