@@ -1,6 +1,6 @@
 def my_collect(array)
-  
-   my_collect(collection) do |lang|
+  collection = []
+   my_collect(collection) while |lang|
   lang.uppercase
   end 
  end 
